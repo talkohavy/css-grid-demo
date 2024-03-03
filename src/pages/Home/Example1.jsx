@@ -3,7 +3,7 @@ export default function Example1() {
     <div className='w-full space-y-4'>
       <h2 className='text-xl font-bold'>• Example 1: grid with 2 columns of px width</h2>
 
-      <div>
+      <div className='rounded-lg border border-[#383838] bg-gray-50 p-4'>
         <pre>
           .gridContainer &#123;
           <br />
