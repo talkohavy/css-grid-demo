@@ -4,6 +4,7 @@ import Example3 from './Example3';
 import Example4 from './Example4';
 import Example5 from './Example5';
 import Example6 from './Example6';
+import Example7 from './Example7';
 
 export default function HomePage() {
   return (
@@ -21,6 +22,8 @@ export default function HomePage() {
       <Example5 />
 
       <Example6 />
+
+      <Example7 />
     </div>
   );
 }
