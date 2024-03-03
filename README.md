@@ -1,5 +1,5 @@
-# Flexbox Common Usage Examples
+# Grid Common Usage Examples
 
-This repo contains some of the most useful example you can achieve with flexbox.
+This repo contains some of the most useful example you can achieve with grid layout.
 
 Use this project as a reference on how to use it wisely.
