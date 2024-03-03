@@ -1,9 +1,7 @@
 export default function Example8() {
   return (
     <div className='w-full space-y-4'>
-      <h2 className='text-xl font-bold'>
-        • Example 8: grid with `grid-column-start`, `grid-row-gap` & `grid-column-end`
-      </h2>
+      <h2 className='text-xl font-bold'>• Example 8: grid with `grid-column-start` & `grid-column-end`</h2>
 
       <div className='rounded-lg border border-[#383838] bg-gray-50 p-4'>
         <pre>
@@ -44,6 +42,7 @@ export default function Example8() {
         <div
           className='col-start-1 outline outline-red-300'
           style={{
+            // gridColumn: '1 / -1', // <--- or you can removed the `col-start-1`, and do this.
             gridColumnEnd: -1,
           }}
         >
