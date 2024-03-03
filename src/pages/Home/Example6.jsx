@@ -1,12 +1,11 @@
-export default function Example5() {
+export default function Example6() {
   return (
     <div className='w-full space-y-4'>
-      <h2 className='text-xl font-bold'>• Example 5: grid with `grid-template-rows`</h2>
+      <h2 className='text-xl font-bold'>• Example 6: grid with `grid-auto-rows`</h2>
 
       <p>
-        Notice how the remaining rows stretch out to fill the remaining space of the grid container. They did not get a
-        defined height, so that's why they stretch. The default behavior of grid items is to stretch and fill the parent
-        container.
+        Notice how when you define a fixed height, no stretch is going to happen. The grid container will either have a
+        leftover unfilled space, or an overflow will occur.
       </p>
 
       <div className='rounded-lg border border-[#383838] bg-gray-50 p-4'>
@@ -19,6 +18,8 @@ export default function Example5() {
           <br />
           &nbsp;&nbsp; grid-template-rows: 40px 60px;
           <br />
+          &nbsp;&nbsp; grid-auto-rows: 120px;
+          <br />
           &nbsp;&nbsp; gap: 10px;
           <br />
           &#125;
@@ -26,11 +27,12 @@ export default function Example5() {
       </div>
 
       <div
-        className='h-96 w-full border border-black p-1'
+        className='h-3xl w-full border border-black p-1'
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4,1fr)',
           gridTemplateRows: '40px 60px',
+          gridAutoRows: '120px',
           gap: 10,
         }}
       >
