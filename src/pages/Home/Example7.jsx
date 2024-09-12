@@ -11,11 +11,11 @@ export default function Example7() {
           <br />
           &nbsp;&nbsp; grid-template-columns: repeat(4, 1fr);
           <br />
-          &nbsp;&nbsp; gap: 10px 5px;
+          &nbsp;&nbsp; grid-auto-rows: 120px;
           <br />
           &nbsp;&nbsp; grid-row-gap: 10px;
           <br />
-          &nbsp;&nbsp; grid-column-gap: 5px;
+          &nbsp;&nbsp; grid-column-gap: 20px;
           <br />
           &#125;
         </pre>
@@ -26,7 +26,7 @@ export default function Example7() {
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4,1fr)',
-          gridAutoRows: '120px',
+          gridAutoRows: 120,
           rowGap: 10,
           columnGap: 20,
         }}
