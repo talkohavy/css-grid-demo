@@ -1,0 +1,9 @@
+.gridTemplate {
+  display: grid;
+  gap: 24px;
+  grid-template-areas:
+    'header header header'
+    'sidebar main main'
+    'sidebar main main'
+    'footer footer footer';
+}
