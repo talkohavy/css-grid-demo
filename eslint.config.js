@@ -6,7 +6,7 @@ import pluginCompiler from 'eslint-plugin-react-compiler';
 export default [
   {
     // when an `ignores` key is used without any other keys in the configuration object, then it acts as global `ignores`.
-    ignores: ['dist'],
+    ignores: ['dist', 'public', 'build'],
   },
   { languageOptions: { globals: globals.browser } },
   pluginJs.configs.recommended,
