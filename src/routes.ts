@@ -3,6 +3,7 @@ import { lazy } from 'react';
 const Example1 = lazy(() => import('./pages/Example1'));
 const Example2 = lazy(() => import('./pages/Example2'));
 const Example3 = lazy(() => import('./pages/Example3'));
+const Example4 = lazy(() => import('./pages/Example4'));
 
 export const routes = [
   {
@@ -22,5 +23,11 @@ export const routes = [
     text: 'Example 3',
     activeNames: ['/example-3'],
     Component: Example3,
+  },
+  {
+    to: '/example-4',
+    text: 'Example 4',
+    activeNames: ['/example-4'],
+    Component: Example4,
   },
 ];
