@@ -1,12 +1,12 @@
 import { lazy } from 'react';
 
-const HomePage = lazy(() => import('./pages/Home'));
+const Example1 = lazy(() => import('./pages/Example1'));
 
 export const routes = [
   {
     to: '/',
-    text: 'Home',
-    activeNames: ['/home', '/'],
-    Component: HomePage,
+    text: 'Example 1',
+    activeNames: ['/example-1', '/'],
+    Component: Example1,
   },
 ];
