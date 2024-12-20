@@ -31,21 +31,32 @@
         "noAutofocus": "off",
         "useKeyWithClickEvents": "off",
         "useKeyWithMouseEvents": "off",
-        "useValidAnchor": "off"
+        "useValidAnchor": "off",
+        "noSvgWithoutTitle": "off"
       },
       "style": {
         "noCommaOperator": "off",
         "useSingleVarDeclarator": "off",
         "noParameterAssign": "off",
-        "noVar": "off"
+        "noVar": "off",
+        "noNonNullAssertion": "off"
       }
     }
   },
   "formatter": {
     "enabled": true,
-    "formatWithErrors": false,
+    "formatWithErrors": true,
     "include": ["src"],
-    "ignore": ["public", "assets", "__unit_tests_results__", "**/*.html", "**/*.mdx"],
+    "ignore": [
+      "public",
+      "assets",
+      "__unit_tests_results__",
+      "**/*.html",
+      "**/*.mdx",
+      "**/*.css",
+      "**/*.scss",
+      "**/.DS_Store"
+    ],
     "indentWidth": 2,
     "indentStyle": "space",
     "lineEnding": "lf",
@@ -62,8 +73,7 @@
       "jsxQuoteStyle": "single",
       "quoteProperties": "asNeeded",
       "quoteStyle": "single",
-      "semicolons": "always",
-      "trailingComma": "all"
+      "semicolons": "always"
     }
   },
   "json": {
