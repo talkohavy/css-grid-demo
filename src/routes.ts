@@ -14,13 +14,13 @@ export const routes = [
   {
     to: '/example-2',
     text: 'Example 2',
-    activeNames: ['/example-2', '/'],
+    activeNames: ['/example-2'],
     Component: Example2,
   },
   {
     to: '/example-3',
     text: 'Example 3',
-    activeNames: ['/example-3', '/'],
+    activeNames: ['/example-3'],
     Component: Example3,
   },
 ];

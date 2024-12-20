@@ -24,17 +24,17 @@ export default function Example3() {
         </div>
 
         <div
-          className='h-32 w-full border border-black p-1'
+          className='h-32 w-full border border-black dark:border-white p-1'
           style={{
             display: 'grid',
             gridTemplateColumns: '2fr 1fr',
             gap: 10,
           }}
         >
-          <div className='outline outline-red-300'>I am the first column</div>
-          <div className='outline outline-red-300'>I am the second column</div>
-          <div className='outline outline-red-300'>Second row A</div>
-          <div className='outline outline-red-300'>Second row B</div>
+          <div className='outline outline-red-500'>I am the first column</div>
+          <div className='outline outline-red-500'>I am the second column</div>
+          <div className='outline outline-red-500'>Second row A</div>
+          <div className='outline outline-red-500'>Second row B</div>
         </div>
       </div>
     </div>

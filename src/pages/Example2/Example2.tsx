@@ -16,24 +16,24 @@ export default function Example2() {
             <br />
             &nbsp;&nbsp; grid-template-columns: 200px 100px;
             <br />
-            &nbsp;&nbsp; gap: 10px;
+            &nbsp;&nbsp; gap: 20px;
             <br />
             &#125;
           </pre>
         </div>
 
         <div
-          className='h-32 w-full border border-black p-1'
+          className='h-32 w-full border border-black dark:border-white p-1'
           style={{
             display: 'grid',
             gridTemplateColumns: '200px 100px',
-            gap: 10,
+            gap: 20,
           }}
         >
-          <div className='outline outline-red-300'>I am the first column</div>
-          <div className='outline outline-red-300'>I am the second column</div>
-          <div className='outline outline-red-300'>Second row A</div>
-          <div className='outline outline-red-300'>Second row B</div>
+          <div className='outline outline-red-500'>I am the first column</div>
+          <div className='outline outline-red-500'>I am the second column</div>
+          <div className='outline outline-red-500'>Second row A</div>
+          <div className='outline outline-red-500'>Second row B</div>
         </div>
       </div>
     </div>

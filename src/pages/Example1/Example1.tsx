@@ -22,15 +22,15 @@ export default function Example1() {
         </div>
 
         <div
-          className='h-32 w-full border border-black p-1'
+          className='h-32 w-full border border-black dark:border-white p-1'
           style={{
             display: 'grid',
             gridTemplateColumns: '200px 100px',
           }}
         >
-          <div className='outline outline-red-300'>I am the first column</div>
-          <div className='outline outline-red-300'>I am the second column</div>
-          <div className='outline outline-red-300'>I am again on the first column</div>
+          <div className='outline outline-red-500'>I am the first column</div>
+          <div className='outline outline-red-500'>I am the second column</div>
+          <div className='outline outline-red-500'>I am again on the first column</div>
         </div>
       </div>
     </div>
