@@ -24,7 +24,7 @@ export default function Example4() {
         </div>
 
         <div
-          className='h-32 w-full border border-black p-1'
+          className='h-32 w-full border border-black dark:border-white p-1'
           style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(12,1fr)',
