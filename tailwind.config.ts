@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from 'tailwindcss/types/config';
+
+const tailwindConfig: Config = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   // safelist: [{ pattern: /^(bg-|border-|text-)/, variants: ['hover', 'active'] }, 'bg-red-200'],
   darkMode: ['class', '[data-theme="dark"]'], // <--- from tests I made on Storybook, this array doesn't work. Only the data-theme="dark" affects the result, and the class does nothing. At first I thought may there's an AND behavior, but no, just the data attributes affects it. The class is rendered useless in this array form.
@@ -212,7 +213,6 @@ module.exports = {
         '4xl': '2rem', // use like so: rounded-4xl
       },
       boxShadow: {
-        down: 'rgba(0, 0, 0, 0.08) 0px 0.9px 4px, rgba(0, 0, 0, 0.06) 0px 2.6px 8px, rgba(0, 0, 0, 0.05) 0px 5.7px 12px, rgba(0, 0, 0, 0.04) 0px 15px 15px',
         '2xs': '0 0 1px 1px rgba(0, 0, 0, 0.1)',
         xs: '0 0 2px 2px rgba(0, 0, 0, 0.1)',
         sm: '0 0 4px 4px rgba(0, 0, 0, 0.1)',
@@ -271,6 +271,9 @@ module.exports = {
         'gradient-radial': 'radial-gradient(circle,var(--tw-gradient-stops))',
         'gradient-radial-bottom': 'radial-gradient(circle at bottom,var(--tw-gradient-stops))',
       },
+      rotate: {
+        270: '270deg',
+      },
       animation: {
         'slide-up': 'slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
         'slide-down': 'slideDown 0.6s cubic-bezier(0.16, 1, 0.3, 1)',
@@ -282,12 +285,12 @@ module.exports = {
       },
       keyframes: {
         slideUp: {
-          from: { opacity: 0, transform: 'translateY(10px)' },
-          to: { opacity: 1, transform: 'translateY(0)' },
+          from: { opacity: '0', transform: 'translateY(10px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
         },
         slideDown: {
-          from: { opacity: 0, transform: 'translateY(-10px)' },
-          to: { opacity: 1, transform: 'translateY(0)' },
+          from: { opacity: '0', transform: 'translateY(-10px)' },
+          to: { opacity: '1', transform: 'translateY(0)' },
         },
         spin: {
           '0%': { transform: 'rotate(0deg)' },
@@ -304,18 +307,18 @@ module.exports = {
           },
         },
         shake: {
-          '0%': { left: 0 },
-          '1%': { left: -3 },
-          '2%': { left: 5 },
-          '3%': { left: -8 },
-          '4%': { left: 8 },
-          '5%': { left: -5 },
-          '6%': { left: 3 },
-          '7%': { left: 0 },
+          '0%': { left: '0' },
+          '1%': { left: '-3px' },
+          '2%': { left: '5px' },
+          '3%': { left: '-8px' },
+          '4%': { left: '8px' },
+          '5%': { left: '-5px' },
+          '6%': { left: '3px' },
+          '7%': { left: '0' },
         },
         appear: {
-          '0%': { opacity: 0 },
-          '100%': { opacity: 1 },
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
       },
       lineClamp: {
@@ -334,3 +337,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+export default tailwindConfig;
