@@ -1,12 +1,12 @@
-export default function Example1() {
+export default function Example3() {
   return (
     <div className='flex size-full flex-col items-start justify-start gap-10 overflow-auto p-8 dark:text-white'>
-      <h1 className='text-3xl font-bold'>Example 1</h1>
+      <h1 className='text-3xl font-bold'>Example 3</h1>
 
       <div className='w-full space-y-4'>
         <p>
           Using <code className='text-blue-600'>`grid-template-columns`</code> with{' '}
-          <code className='text-blue-600'>`px`</code> values width.
+          <code className='text-blue-600'>`fr`</code> values width.
         </p>
 
         <div className='rounded-lg border border-[#383838] p-4'>
@@ -15,7 +15,9 @@ export default function Example1() {
             <br />
             &nbsp;&nbsp; display: grid;
             <br />
-            &nbsp;&nbsp; grid-template-columns: 200px 100px;
+            &nbsp;&nbsp; grid-template-columns: 2fr 1fr;
+            <br />
+            &nbsp;&nbsp; gap: 10px;
             <br />
             &#125;
           </pre>
@@ -25,12 +27,14 @@ export default function Example1() {
           className='h-32 w-full border border-black p-1'
           style={{
             display: 'grid',
-            gridTemplateColumns: '200px 100px',
+            gridTemplateColumns: '2fr 1fr',
+            gap: 10,
           }}
         >
           <div className='outline outline-red-300'>I am the first column</div>
           <div className='outline outline-red-300'>I am the second column</div>
-          <div className='outline outline-red-300'>I am again on the first column</div>
+          <div className='outline outline-red-300'>Second row A</div>
+          <div className='outline outline-red-300'>Second row B</div>
         </div>
       </div>
     </div>

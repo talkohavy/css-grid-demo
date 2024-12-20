@@ -8,7 +8,7 @@ export default function Example2() {
           Using <code className='text-blue-600'>`gap`</code>
         </p>
 
-        <div className='rounded-lg border border-[#383838] bg-gray-50 p-4'>
+        <div className='rounded-lg border border-[#383838] p-4'>
           <pre>
             .gridContainer &#123;
             <br />
