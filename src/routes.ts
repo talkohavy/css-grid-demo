@@ -7,6 +7,7 @@ const Example4 = lazy(() => import('./pages/Example4'));
 const Example5 = lazy(() => import('./pages/Example5'));
 const Example6 = lazy(() => import('./pages/Example6'));
 const Example7 = lazy(() => import('./pages/Example7'));
+const Example8 = lazy(() => import('./pages/Example8'));
 
 export const routes = [
   {
@@ -50,5 +51,11 @@ export const routes = [
     text: 'Example 7',
     activeNames: ['/example-7'],
     Component: Example7,
+  },
+  {
+    to: '/example-8',
+    text: 'Example 8',
+    activeNames: ['/example-8'],
+    Component: Example8,
   },
 ];
