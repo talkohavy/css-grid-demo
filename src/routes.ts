@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 
-export const routes = Array.from(Array(11)).map((_, index) => ({
+export const routes = Array.from(Array(12)).map((_, index) => ({
   to: index === 0 ? '/' : `/example-${index + 1}`,
   text: `Example ${index + 1}`,
   activeNames: [`/example-${index + 1}`],
