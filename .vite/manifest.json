@@ -1,0 +1,11 @@
+{
+  "index.html": {
+    "file": "main/index-BwfWSmC0.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "css": [
+      "main/index-BP1lEFIC.css"
+    ]
+  }
+}
