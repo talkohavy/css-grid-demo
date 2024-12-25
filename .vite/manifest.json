@@ -1,11 +1,139 @@
 {
   "index.html": {
-    "file": "main/index-BwfWSmC0.js",
+    "file": "main/index-9cXgr3SV.js",
     "name": "index",
     "src": "index.html",
     "isEntry": true,
+    "dynamicImports": [
+      "pages/Example1/index.ts",
+      "pages/Example2/index.ts",
+      "pages/Example3/index.ts",
+      "pages/Example4/index.ts",
+      "pages/Example5/index.ts",
+      "pages/Example6/index.ts",
+      "pages/Example7/index.ts",
+      "pages/Example8/index.ts",
+      "pages/Example9/index.ts",
+      "pages/Example10/index.ts",
+      "pages/Example11/index.ts",
+      "pages/Example12/index.ts"
+    ],
     "css": [
-      "main/index-BP1lEFIC.css"
+      "static/css/index.BP1lEFICZ619.css"
+    ]
+  },
+  "pages/Example1/index.ts": {
+    "file": "static/js/index.CDPYpWG1.js",
+    "name": "index",
+    "src": "pages/Example1/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example10/index.ts": {
+    "file": "static/js/index.Fk4CK6gj.js",
+    "name": "index",
+    "src": "pages/Example10/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example11/index.ts": {
+    "file": "static/js/index.DvaroCyJ.js",
+    "name": "index",
+    "src": "pages/Example11/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ],
+    "css": [
+      "static/css/index.DMrOVlhFUTRt.css"
+    ]
+  },
+  "pages/Example12/index.ts": {
+    "file": "static/js/index.3IBCs2p_.js",
+    "name": "index",
+    "src": "pages/Example12/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ],
+    "css": [
+      "static/css/index.cvkdFbxgo5ST.css"
+    ]
+  },
+  "pages/Example2/index.ts": {
+    "file": "static/js/index.B03IUHYX.js",
+    "name": "index",
+    "src": "pages/Example2/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example3/index.ts": {
+    "file": "static/js/index.BPVz1Iu5.js",
+    "name": "index",
+    "src": "pages/Example3/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example4/index.ts": {
+    "file": "static/js/index.BjDdhLOB.js",
+    "name": "index",
+    "src": "pages/Example4/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example5/index.ts": {
+    "file": "static/js/index.ClECrr09.js",
+    "name": "index",
+    "src": "pages/Example5/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example6/index.ts": {
+    "file": "static/js/index.B8VmnL06.js",
+    "name": "index",
+    "src": "pages/Example6/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example7/index.ts": {
+    "file": "static/js/index.zzpgHidE.js",
+    "name": "index",
+    "src": "pages/Example7/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example8/index.ts": {
+    "file": "static/js/index.DM5tarvg.js",
+    "name": "index",
+    "src": "pages/Example8/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/Example9/index.ts": {
+    "file": "static/js/index.ebh2q1po.js",
+    "name": "index",
+    "src": "pages/Example9/index.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
     ]
   }
 }
